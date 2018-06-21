@@ -22,10 +22,8 @@ def borough
   puts first_recycle_bin[borough]
 end
 borough
-  
-#3. Define a method called `all_keys` that takes a hash as an argument.
-#This method should print out each key in the hash.
-#You should use the `each_key` method to iterate over your hash and print out each key.
+
+
 def all_keys
   puts first_recycle_bin.keys
 end
